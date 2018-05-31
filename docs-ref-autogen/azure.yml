@@ -1,8 +1,7 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - azure.eventhub
+- children: []
   fullName: azure
   langs:
   - python
@@ -10,17 +9,12 @@ items:
   name: azure
   source:
     id: azure
-    path: azure-mgmt-storage\azure\__init__.py
+    path: azure-common\azure\__init__.py
     remote:
       branch: develop
-      path: azure-mgmt-storage\azure\__init__.py
+      path: azure-common\azure\__init__.py
       repo: https://github.com/Azure/azure-event-hubs-python.git
     startLine: 0
   type: package
   uid: azure
-references:
-- fullName: azure.eventhub
-  isExternal: false
-  name: eventhub
-  parent: azure
-  uid: azure.eventhub
+references: []

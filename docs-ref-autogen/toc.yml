@@ -1,59 +1,10 @@
-- items:
-  - items:
-    - items:
-      - name: azure.eventhub.async.AsyncReceiver
-        uid: azure.eventhub.async.AsyncReceiver
-      - name: azure.eventhub.async.AsyncSender
-        uid: azure.eventhub.async.AsyncSender
-      - name: azure.eventhub.async.EventHubClientAsync
-        uid: azure.eventhub.async.EventHubClientAsync
-      name: azure.eventhub.async
-      uid: azure.eventhub.async
-    - name: azure.eventhub.EventData
-      uid: azure.eventhub.EventData
-    - name: azure.eventhub.EventHubClient
-      uid: azure.eventhub.EventHubClient
-    - name: azure.eventhub.EventHubError
-      uid: azure.eventhub.EventHubError
-    - name: azure.eventhub.Offset
-      uid: azure.eventhub.Offset
-    - name: azure.eventhub.Receiver
-      uid: azure.eventhub.Receiver
-    - name: azure.eventhub.Sender
-      uid: azure.eventhub.Sender
-    name: azure.eventhub
-    uid: azure.eventhub
-  name: azure
+- name: azure
   uid: azure
 - items:
   - name: azure.eventprocessorhost.abstract_event_processor.AbstractEventProcessor
     uid: azure.eventprocessorhost.abstract_event_processor.AbstractEventProcessor
   name: azure.eventprocessorhost.abstract_event_processor
   uid: azure.eventprocessorhost.abstract_event_processor
-- items:
-  - name: azure.eventprocessorhost.abstract_lease_manager.AbstractLeaseManager
-    uid: azure.eventprocessorhost.abstract_lease_manager.AbstractLeaseManager
-  name: azure.eventprocessorhost.abstract_lease_manager
-  uid: azure.eventprocessorhost.abstract_lease_manager
-- items:
-  - name: azure.eventprocessorhost.azure_blob_lease.AzureBlobLease
-    uid: azure.eventprocessorhost.azure_blob_lease.AzureBlobLease
-  name: azure.eventprocessorhost.azure_blob_lease
-  uid: azure.eventprocessorhost.azure_blob_lease
-- items:
-  - name: azure.eventprocessorhost.azure_storage_checkpoint_manager.AzureStorageCheckpointLeaseManager
-    uid: azure.eventprocessorhost.azure_storage_checkpoint_manager.AzureStorageCheckpointLeaseManager
-  name: azure.eventprocessorhost.azure_storage_checkpoint_manager
-  uid: azure.eventprocessorhost.azure_storage_checkpoint_manager
-- items:
-  - name: azure.eventprocessorhost.checkpoint.Checkpoint
-    uid: azure.eventprocessorhost.checkpoint.Checkpoint
-  name: azure.eventprocessorhost.checkpoint
-  uid: azure.eventprocessorhost.checkpoint
-- items:
-  - name: azure.eventprocessorhost.lease.Lease
-    uid: azure.eventprocessorhost.lease.Lease
-  name: azure.eventprocessorhost.lease
-  uid: azure.eventprocessorhost.lease
 - name: tests
   uid: tests
+
