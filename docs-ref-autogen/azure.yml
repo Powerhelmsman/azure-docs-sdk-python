@@ -3,6 +3,7 @@ api_name: []
 items:
 - children:
   - azure.eventhub
+  - azure.eventprocessorhost
   fullName: azure
   langs:
   - python
@@ -10,12 +11,12 @@ items:
   name: azure
   source:
     id: azure
-    path: null
+    path: azure_servicemanagement_legacy-0.20.7-py3.6.egg\azure\__init__.py
     remote:
       branch: develop
-      path: null
+      path: azure_servicemanagement_legacy-0.20.7-py3.6.egg\azure\__init__.py
       repo: https://github.com/Azure/azure-event-hubs-python.git
-    startLine: null
+    startLine: 0
   type: package
   uid: azure
 references:
@@ -24,3 +25,8 @@ references:
   name: eventhub
   parent: azure
   uid: azure.eventhub
+- fullName: azure.eventprocessorhost
+  isExternal: false
+  name: eventprocessorhost
+  parent: azure
+  uid: azure.eventprocessorhost
